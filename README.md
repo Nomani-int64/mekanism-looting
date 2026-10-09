@@ -1,25 +1,18 @@
 
-Installation information
+Mekanism: Looting
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+A very simple Mekanism addon, adding looting function for Meka Tool. I felt strange that such a high-tech omni tool didn't even have some kind of looting mechanics so I made this.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+## Current features
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+- Items:
+- - **Looting module**: Basically identical to Vanilla Looting enchantment (because it is defined this way).
+- - **Severing module**: When killing certain mobs, you'll have a chance to get an extra loot item based on the mob's body part (mob heads, blaze rods, leather, etc.), and the probabilities are proportional to installed module count (except for stuff like heads, it would be strange to get more than 1 heads out of one dragon). Inspired by similar stuff in other mods such as Tinker's Construct. Currently all loots are hard-coded, sorry for inconvenience.
+- Zh-cn localization (简体中文本地化).
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+## Usage
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Install this mod along with Mekanism v10.7. In creative mode, you can find these two modules at the bottom of Mekanism native tab.
+
+The mod is open-sourced under **MIT License**. You can include this mod in any modpack, or edit and redistribute it under the same license.
