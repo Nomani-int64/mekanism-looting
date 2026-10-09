@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mekanismlooting:item/module_looting_unit"
+  }
+}

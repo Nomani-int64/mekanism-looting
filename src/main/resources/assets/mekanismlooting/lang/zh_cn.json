@@ -1,0 +1,6 @@
+{
+  "module.mekanismlooting.looting_unit": "抢夺单元",
+  "description.mekanismlooting.looting_unit": "局部地控制攻击范围，使从敌人身上取得的战利品更多。",
+  "module.mekanismlooting.severing_unit": "肢解单元",
+  "description.mekanismlooting.severing_unit": "改进解剖有机体的功能，让敌人的机体部位（尤其是头）保存更完整。"
+}

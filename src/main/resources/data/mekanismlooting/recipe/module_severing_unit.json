@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "eCe",
+    "gLg",
+    "ppp"
+  ],
+  "key": {
+    "C": {"item": "mekanism:supercharged_coil"},
+    "e": {"tag": "c:alloys/elite"},
+    "L": {"item": "mekanismlooting:module_looting_unit"},
+    "g": {"tag": "mekanism:enriched/gold"},
+    "p": {"tag": "c:pellets/polonium"}
+  },
+  "result": {
+    "id": "mekanismlooting:module_severing_unit",
+    "count": 1
+  }
+}

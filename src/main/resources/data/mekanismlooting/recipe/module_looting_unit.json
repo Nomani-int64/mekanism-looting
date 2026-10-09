@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "eOe",
+    "DbD",
+    "ppp"
+  ],
+  "key": {
+    "O": {"tag": "c:storage_blocks/refined_obsidian"},
+    "e": {"tag": "c:alloys/elite"},
+    "b": {"item": "mekanism:module_base"},
+    "D": {"tag": "c:storage_blocks/diamond"},
+    "p": {"tag": "c:pellets/polonium"}
+  },
+  "result": {
+    "id": "mekanismlooting:module_looting_unit",
+    "count": 1
+  }
+}

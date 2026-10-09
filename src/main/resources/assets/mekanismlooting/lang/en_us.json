@@ -1,0 +1,6 @@
+{
+  "module.mekanismlooting.looting_unit": "Looting Unit",
+  "description.mekanismlooting.looting_unit": "Controls the attack range on a local basis, so more loots can be extracted from various enemies.",
+  "module.mekanismlooting.severing_unit": "Severing Unit",
+  "description.mekanismlooting.severing_unit": "Improves the ability to dissect organism, making parts (especially the head) of the enemy body preserve better."
+}
